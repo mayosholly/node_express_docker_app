@@ -5,7 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 // initialize express instance
-const app = express();
+const app = express();   
 
 const postRoute = require('./routes/postRoutes');
 const userRoute = require('./routes/userRoutes');
